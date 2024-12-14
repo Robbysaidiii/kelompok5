@@ -59,7 +59,7 @@ def predict_rain():
 # Route to render the index.html page
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('base.html')
 
 # Run the Flask app
 if __name__ == '__main__':
